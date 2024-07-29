@@ -6,9 +6,10 @@
     <title>HTML tutorial</title> 
     <link rel="icon" type="image/x-icon" href="h.jpg">
     <style>
-        table, th, td {
-  border: 1px solid rgb(0, 0, 0);
-}
+        table,th,td{
+            border: 1px solid black;
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body style="background-color: rgb(184, 253, 24); height: 3000px; width: auto;">
@@ -74,19 +75,17 @@
                 Submit
             </button>
             <!--this is image tag-->
-            <img alt="tower" src="h.jpg" width="500px" height="300px">
-            <!-- link to an email address--><br>
-            <a href="mailto:bokulislam873@gmail.com">send mail</a>
+            <img alt="tower" src="h.jpg" width="500px" height="300px"><br><br>
+            <!-- link to an email address-->
+            <a href="mailto:bokulislam873@gmail.com">send mail</a><hr><br>
             <!--this is a table-->
-            <table style="border-collapse: collapse;">
-                
+            <table>
+                <caption>simple table</caption>
                     <tr>
                         <th>name </th>
                         <th>age </th>
                         <th>department</th>
                     </tr>
-                
-                
                     <tr>
                         <td>bokul</td>
                          <td>23</td>
@@ -97,7 +96,76 @@
                          <td>23</td>
                          <td>cse</td>
                     </tr>
-                
-            </table>
+            </table> <br> 
+            <div style="background-color: red;">
+                Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit.
+                 Vitae consectetur dignissimos,
+                  accusantium corrupti dolorem 
+                  neque excepturi sunt aliquid
+                   iste placeat iure voluptas
+                    officia doloremque blanditiis
+                     fuga, incidunt aliquam! Voluptatum,
+                      cupiditate.
+
+                      <p>Lorem ipsum dolor sit amet
+                         consectetur adipisicing elit.
+                          Sunt doloremque aliquam nesciunt
+                           iusto molestiae eius dignissimos
+                            reprehenderit. Repellat ad vero
+                             molestias, amet consectetur
+                              ducimus veritatis. Magnam, 
+                              sit. Quam facilis est pariatur
+                               nulla eum deserunt earum unde 
+                               consequatur velit voluptates,
+                                dolorem corporis mollitia magnam 
+                                soluta similique.</p>
+            </div>   
+            <iframe
+             title="w3school" 
+             height="200px"
+              width="300px" 
+              src="h.jpg">
+            </iframe> <br> <br>   
+            <form>
+                <label for="username">username :</label>
+                <input type="text" id="username" name="username"><br><br>
+                <label for="password">password :</label>
+                <input type="password" name="password" id="password"><br><br>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset"><br><br>
+                <input type="button"  id="button" value="button" ><br><br>
+               <!--this is radio inputtype-->
+                <input type="radio" id="html" name="fav-language">
+                <label for="html">HTML</label><br>
+                <input type="radio" id="css" name="fav-language">
+                <label for="css">CSS</label><br>
+                <input type="radio" id="html" name="fav-language">
+                <label for="bootstarp" >BOOTSTARP</label><br>
+                <!--this is color inputtype-->
+                <label for="color">Select your color</label><br>
+                <input type="color" id="color" name="color"><br><br>
+                <!--this is date inputtype-->
+                <label for="date">Birthday</label>
+                <input type="date" id="date" name="date"><br><br>
+                <!--this is email inputtype-->
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="myfile">Select a file:</label>
+                <input type="file" id="myfile" name="myfile">
+            </form>  
+            <!--this is video-->  
+            <video width="320" height="240" controls>
+                <source src="movie.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+              Your browser does not support the video tag.
+              </video> 
+              <!--this is audio--> 
+              <audio controls>
+                <source src="horse.ogg" type="audio/ogg">
+                <source src="horse.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+              </audio>             
 </body>
 </html>
